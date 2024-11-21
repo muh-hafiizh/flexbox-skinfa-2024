@@ -1,0 +1,60 @@
+/* Layout Utama */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header dan Footer */
+.header {
+    background-color: #333;
+    color: white;
+}
+
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #333;
+    padding: 10px;
+    align-items: center;
+}
+
+.nav-item {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar-logo{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.navbar-logo img{
+    width: 100%;
+}
+
+/* Kontainer Flex untuk Layout */
+.kontainer {
+    display: flex;
+    padding: 20px;
+}
+
+/* Sidebar dan Konten Utama */
+.sidebar {
+    width: 25%;
+    background-color: #d1e7dd;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.konten {
+    flex: 1; /* Mengisi sisa ruang */
+    background-color: #f8d7da;
+    padding: 20px;
+}

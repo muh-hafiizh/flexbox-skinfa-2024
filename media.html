@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .p-desktop{
+            display: block;
+        }
+        .p-mobile{
+            display: none;
+        }
+        @media screen and (max-width: 480px){
+            .p-desktop{
+                display: none;
+            }
+            .p-mobile{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+<p class="p-desktop">
+    Ini ada di desktop
+</p>
+<p class="p-mobile">
+    Ini ada di mobile
+</p>
+</body>
+</html>

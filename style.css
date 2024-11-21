@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.container .item{
+    flex-grow: 1;
+    padding: 10px;
+    background-color: #a0fd9d;
+    align-self: center;
+}
